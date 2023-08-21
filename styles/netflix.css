@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.backgroundImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+  align-content: space-around;
+  width: 100vw;
+  height: 500px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.15) 70%,
+      rgba(0, 0, 0, 0.961) 100%
+    ),
+    url("/assets/images/backGroundNetflixImage.jpeg");
+  background-size: cover;
+}
+
+.clearBackground {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.logo-container {
+  display: flex;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-container {
+  position: absolute; /* 웬만하면 쓰리마라 -> 잘못하면 다 망친다.*/
+  z-index: 100;
+}
+
+.login-avatar {
+  width: 2%;
+  height: 1%;
+  display: flex;
+  justify-content: end;
+}
+
+.logo {
+  height: 20px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 2%;
+  left: 2%;
+  right: 2%;
+}
+
+.head-movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.head-movie-element1 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.head-movie-element2 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.head-movie-element3 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.head-movie-element4 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.head-movie-element5 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.head-movie-element6 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.head-movie-element7 {
+  width: 11%;
+  cursor: pointer;
+}
+
+/* hocver 효과 -> 그림 커지게 */
+.head-movie-element1:hover {
+  transform: scale(1.5);
+}
+
+.head-movie-element2:hover {
+  transform: scale(1.5);
+}
+
+.head-movie-element3:hover {
+  transform: scale(1.5);
+}
+
+.head-movie-element4:hover {
+  transform: scale(1.5);
+}
+
+.head-movie-element5:hover {
+  transform: scale(1.5);
+}
+
+.head-movie-element6:hover {
+  transform: scale(1.5);
+}
+
+.head-movie-element7:hover {
+  transform: scale(1.5);
+}
+
+.original-movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.original-movie-element1 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.original-movie-element2 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.original-movie-element3 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.original-movie-element4 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.original-movie-element5 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.original-movie-element6 {
+  width: 11%;
+  cursor: pointer;
+}
+
+.original-movie-element7 {
+  width: 11%;
+  cursor: pointer;
+}
+
+/* hocver 효과 -> 그림 커지게 */
+.original-movie-element1:hover {
+  transform: scale(1.5);
+}
+.original-movie-element2:hover {
+  transform: scale(1.5);
+}
+.original-movie-element3:hover {
+  transform: scale(1.5);
+}
+.original-movie-element4:hover {
+  transform: scale(1.5);
+}
+.original-movie-element5:hover {
+  transform: scale(1.5);
+}
+.original-movie-element6:hover {
+  transform: scale(1.5);
+}
+.original-movie-element7:hover {
+  transform: scale(1.5);
+}
+
+.trending-movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.trending-movie-element {
+  width: 11%;
+  justify-content: space-between;
+}
+
+.original {
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2%;
+}
+.play,
+.list {
+  width: 110px;
+  height: 30px;
+  font-size: 20px;
+  margin: 12px;
+  background-color: rgba(47, 38, 38, 0);
+  color: whitesmoke;
+}
+.play,
+.list {
+  box-shadow: 2px 2px 2px 2px black;
+}
+.title {
+  width: 20rem;
+}
+
+.introduce-sub {
+  font-style: italic;
+  padding-right: 60%;
+  margin-left: 3%;
+  opacity: 30%;
+}
+
+.main {
+  font-size: larger;
+}
+
+.original-text,
+.trending-text {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.movie-introduce-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2%;
+}
